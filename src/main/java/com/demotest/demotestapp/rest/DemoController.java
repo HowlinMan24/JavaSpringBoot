@@ -11,7 +11,7 @@ public class DemoController {
     private Coach myCoach;
 
     @Autowired
-    public DemoController(Coach myCoach) {
+    public void doSomeStuff(Coach myCoach) {
         this.myCoach = myCoach;
     }
 
