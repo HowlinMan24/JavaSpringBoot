@@ -1,4 +1,4 @@
-package com.demotest.demotestapp.common;
+package com.demotest.util.common;
 
 import org.springframework.stereotype.Component;
 
