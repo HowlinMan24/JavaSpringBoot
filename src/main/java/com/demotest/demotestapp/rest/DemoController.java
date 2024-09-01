@@ -1,5 +1,6 @@
-package com.demotest.demotestapp;
+package com.demotest.demotestapp.rest;
 
+import com.demotest.demotestapp.common.Coach;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
