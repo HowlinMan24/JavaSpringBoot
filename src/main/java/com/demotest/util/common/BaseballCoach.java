@@ -1,17 +1,31 @@
 package com.demotest.util.common;
 
-import org.springframework.beans.factory.config.ConfigurableBeanFactory;
-import org.springframework.context.annotation.Primary;
-import org.springframework.context.annotation.Scope;
+import jakarta.annotation.PostConstruct;
+import jakarta.annotation.PreDestroy;
 import org.springframework.stereotype.Component;
 
 @Component
-@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
-public class BaseballCoach implements Coach  {
+public class BaseballCoach implements Coach {
 
     public BaseballCoach() {
         System.out.println("Inside constructor of baseballCoach");
     }
+
+
+    // Define out init method
+
+    @PostConstruct
+    public void init() {
+        System.out.println("Inside init of baseballCoach");
+    }
+
+    // Define our destroy method
+
+    @PreDestroy
+    public void destroy() {
+        System.out.println("Inside destroy of baseballCoach");
+    }
+
 
     @Override
     public String getDailyWorkout() {
