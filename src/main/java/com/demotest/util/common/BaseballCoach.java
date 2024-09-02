@@ -12,7 +12,7 @@ public class BaseballCoach implements Coach {
     }
 
 
-    // Define out init method
+    // Define our init method
 
     @PostConstruct
     public void init() {
