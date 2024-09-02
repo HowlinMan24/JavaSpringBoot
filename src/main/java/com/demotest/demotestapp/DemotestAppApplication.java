@@ -9,7 +9,9 @@ import org.springframework.context.annotation.Bean;
         scanBasePackages = {
                 "com.demotest.demotestapp",
                 "com.demotest.util",
-                "com.demotest.config"
+                "com.demotest.config",
+                "com.demotest.entity",
+                "com.demotest.dao"
         }
 )
 public class DemotestAppApplication {
