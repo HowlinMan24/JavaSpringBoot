@@ -24,7 +24,7 @@ import java.util.List;
                 "com.demotest.util",
                 "com.demotest.config",
                 "com.demotest.entity",
-                "com.demotest.dao"
+                "com.demotest.dao",
         }
 )
 @EntityScan(basePackages = "com.demotest.entity")
