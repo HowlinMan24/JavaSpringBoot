@@ -4,6 +4,12 @@ import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;
 import org.springframework.stereotype.Component;
 
+/**
+ * This is a `Component Class` suggested by the `@Component` annotation. This is generated during the creation of the app
+ * The `@PostConstruct` method runs right after the starting of the app and executes its containment.
+ * The `@PreDestroy` method runs right before the destruction of the app(This is when you stop the app or crashes etc.) and executes its containment.
+ */
+
 @Component
 public class BaseballCoach implements Coach {
 
