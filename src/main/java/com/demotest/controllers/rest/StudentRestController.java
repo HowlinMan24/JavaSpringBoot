@@ -1,12 +1,8 @@
-package com.demotest.demotestapp.rest;
+package com.demotest.controllers.rest;
 
-import com.demotest.dao.StudentDAOImpl;
 import com.demotest.entity.Student;
 import com.demotest.util.exceptions.StudentNotFoundException;
-import com.demotest.util.responses.StudentErrorResponse;
 import jakarta.annotation.PostConstruct;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;

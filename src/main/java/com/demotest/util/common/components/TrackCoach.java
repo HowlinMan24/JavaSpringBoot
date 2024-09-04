@@ -1,6 +1,6 @@
-package com.demotest.util.common;
+package com.demotest.util.common.components;
 
-import jdk.jfr.Label;
+import com.demotest.util.common.interfacesComponents.Coach;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 

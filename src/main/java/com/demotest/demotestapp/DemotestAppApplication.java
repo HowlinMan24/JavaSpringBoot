@@ -1,6 +1,6 @@
 package com.demotest.demotestapp;
 
-import com.demotest.dao.StudentDAO;
+import com.demotest.dao.interfaces.StudentDAO;
 import com.demotest.entity.Student;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

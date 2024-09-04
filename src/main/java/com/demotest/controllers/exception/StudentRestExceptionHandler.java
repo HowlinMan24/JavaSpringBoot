@@ -1,4 +1,4 @@
-package com.demotest.util.exceptions.controllers;
+package com.demotest.controllers.exception;
 
 import com.demotest.util.exceptions.StudentNotFoundException;
 import com.demotest.util.responses.StudentErrorResponse;

@@ -1,7 +1,6 @@
-package com.demotest.util.common;
+package com.demotest.util.common.components;
 
-import org.springframework.beans.factory.config.ConfigurableBeanFactory;
-import org.springframework.context.annotation.Scope;
+import com.demotest.util.common.interfacesComponents.Coach;
 import org.springframework.stereotype.Component;
 
 @Component

@@ -1,5 +1,6 @@
-package com.demotest.util.common;
+package com.demotest.util.common.components;
 
+import com.demotest.util.common.interfacesComponents.Coach;
 import org.springframework.stereotype.Component;
 
 @Component

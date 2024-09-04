@@ -1,8 +1,8 @@
-package com.demotest.dao;
+package com.demotest.dao.implementations;
 
+import com.demotest.dao.interfaces.StudentDAO;
 import com.demotest.entity.Student;
 import jakarta.persistence.EntityManager;
-import jakarta.persistence.PersistenceContext;
 import jakarta.persistence.TypedQuery;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;

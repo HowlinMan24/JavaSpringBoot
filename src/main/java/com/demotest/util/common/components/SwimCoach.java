@@ -1,6 +1,6 @@
-package com.demotest.util.common;
+package com.demotest.util.common.components;
 
-import org.springframework.stereotype.Component;
+import com.demotest.util.common.interfacesComponents.Coach;
 
 
 public class SwimCoach implements Coach {

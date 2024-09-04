@@ -1,11 +1,9 @@
 package com.demotest.config;
 
-import com.demotest.util.common.Coach;
-import com.demotest.util.common.SwimCoach;
-import org.springframework.beans.factory.config.ConfigurableBeanFactory;
+import com.demotest.util.common.interfacesComponents.Coach;
+import com.demotest.util.common.components.SwimCoach;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Scope;
 
 /**
  *  This is a `Configuration class` that can be used by the Spring IoC(Inversion of Control) container to generate and manage beans.

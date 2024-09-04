@@ -1,4 +1,4 @@
-package com.demotest.dao;
+package com.demotest.dao.interfaces;
 
 import com.demotest.entity.Student;
 
