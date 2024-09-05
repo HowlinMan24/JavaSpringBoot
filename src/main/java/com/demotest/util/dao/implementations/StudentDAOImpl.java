@@ -1,6 +1,6 @@
-package com.demotest.dao.implementations;
+package com.demotest.util.dao.implementations;
 
-import com.demotest.dao.interfaces.StudentDAO;
+import com.demotest.util.dao.interfaces.StudentDAO;
 import com.demotest.entity.Student;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.TypedQuery;

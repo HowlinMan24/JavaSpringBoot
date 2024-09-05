@@ -1,6 +1,6 @@
 package com.demotest.demotestapp;
 
-import com.demotest.dao.interfaces.StudentDAO;
+import com.demotest.util.dao.interfaces.StudentDAO;
 import com.demotest.entity.Student;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -24,7 +24,8 @@ import java.util.List;
                 "com.demotest.util",
                 "com.demotest.config",
                 "com.demotest.entity",
-                "com.demotest.dao",
+                "com.demotest.controllers",
+                "com.demotest.service"
         }
 )
 @EntityScan(basePackages = "com.demotest.entity")

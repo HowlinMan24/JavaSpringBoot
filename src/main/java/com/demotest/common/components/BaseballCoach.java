@@ -1,6 +1,6 @@
-package com.demotest.util.common.components;
+package com.demotest.common.components;
 
-import com.demotest.util.common.interfacesComponents.Coach;
+import com.demotest.common.interfacesComponents.Coach;
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;
 import org.springframework.stereotype.Component;

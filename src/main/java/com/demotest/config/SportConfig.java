@@ -1,7 +1,7 @@
 package com.demotest.config;
 
-import com.demotest.util.common.interfacesComponents.Coach;
-import com.demotest.util.common.components.SwimCoach;
+import com.demotest.common.interfacesComponents.Coach;
+import com.demotest.common.components.SwimCoach;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

@@ -1,6 +1,6 @@
-package com.demotest.util.common.components;
+package com.demotest.common.components;
 
-import com.demotest.util.common.interfacesComponents.Coach;
+import com.demotest.common.interfacesComponents.Coach;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 

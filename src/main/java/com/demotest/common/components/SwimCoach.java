@@ -1,6 +1,6 @@
-package com.demotest.util.common.components;
+package com.demotest.common.components;
 
-import com.demotest.util.common.interfacesComponents.Coach;
+import com.demotest.common.interfacesComponents.Coach;
 
 
 public class SwimCoach implements Coach {

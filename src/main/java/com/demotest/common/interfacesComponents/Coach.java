@@ -1,4 +1,4 @@
-package com.demotest.util.common.interfacesComponents;
+package com.demotest.common.interfacesComponents;
 
 public interface Coach {
     String getDailyWorkout();
