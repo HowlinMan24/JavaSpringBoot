@@ -20,8 +20,8 @@ public class EmployeeRestController {
     }
 
     @PostMapping("/employees")
-    public void addEmployee() {
-        Employee employee = new Employee("kiko", "mijalkov", "hristijanmijalov2@gmail.com");
+    public void addEmployee(@RequestBody Employee employee) {
+//        Employee employee = new Employee("kiko", "mijalkov", "hristijanmijalov2@gmail.com");
         this.employeeService.save(employee);
     }
 
