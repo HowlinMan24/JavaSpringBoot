@@ -40,9 +40,9 @@ public class EmployeeRestController {
         this.employeeService.update(employee);
     }
 
-    @DeleteMapping("/employees")
-    public void deleteEmployee(@RequestBody Employee employee) {
-        this.employeeService.delete(employee.getId());
+    @DeleteMapping("/employees/{employeeId}")
+    public void deleteEmployee(@PathVariable int employeeId) {
+        this.employeeService.delete(employeeId);
     }
 
 }
