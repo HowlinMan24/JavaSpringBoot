@@ -7,6 +7,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.Bean;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 import java.util.List;
 
@@ -29,6 +30,7 @@ import java.util.List;
         }
 )
 @EntityScan(basePackages = "com.demotest.entity")
+@EnableJpaRepositories(basePackages = "com.demotest.util.repository")
 public class DemotestAppApplication {
 
     public static void main(String[] args) {
